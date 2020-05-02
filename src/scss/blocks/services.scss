@@ -1,0 +1,15 @@
+.services {
+    padding: 100px 0 100px;
+}
+
+.services__list {
+    margin-bottom: 80px;
+}
+
+.services__elem {
+    margin-bottom: 50px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

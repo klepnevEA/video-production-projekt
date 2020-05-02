@@ -1,0 +1,29 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    font-size: 16px;
+    background-color: $red;
+    border-radius: 30px;
+    padding: 5px 45px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $open-sans-bold;
+    border: 2px solid $red;
+
+    &--white {
+        background-color: #fff;
+        color: $red;
+    }
+
+    &--gray {
+        background-color: #424242;
+        border-color: #424242;
+    }
+}
+
+
+  

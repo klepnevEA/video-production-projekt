@@ -1,0 +1,39 @@
+.service {
+    display: flex;
+}
+
+.service__photo {
+    width: 458px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 6px;
+    flex: 0 0 auto;
+    margin-right: 60px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service__content {
+    display: flex;
+    flex-direction: column;
+    padding: 13px 0 15px;
+}
+
+.service__title {
+    font-family: $open-sans-bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.service__text {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.7;
+    font-family: $open-sans;
+}
+
+.service__button {
+    margin-top: auto;
+}
+

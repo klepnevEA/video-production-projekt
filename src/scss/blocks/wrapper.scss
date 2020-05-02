@@ -1,0 +1,12 @@
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &--main {
+        background: url('../img/bg/hero.jpg') center top no-repeat, url('../img/bg/bottom-pic.jpg') center bottom no-repeat, $bg;
+        // background-repeat: repeat-y;
+        background-size: 100% auto;
+    }
+}

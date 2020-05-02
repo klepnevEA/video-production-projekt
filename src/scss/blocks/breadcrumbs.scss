@@ -1,0 +1,28 @@
+.breadcrumbs {
+    display: flex;
+}
+
+.breadcrumbs__elem {
+    &:after {
+        content: '/';
+        display: inline-block;
+        margin: 0 2px 0 0;
+        color: $breadcrumbs;
+    }
+
+    &:last-child {
+        &:after {
+            content: none;
+        }
+
+        .breadcrumbs__link {
+            font-family: $open-sans-bold;
+        }
+    }
+}
+
+.breadcrumbs__link {
+    color: $breadcrumbs;
+    font-size: 14px;
+    text-decoration: underline;
+}

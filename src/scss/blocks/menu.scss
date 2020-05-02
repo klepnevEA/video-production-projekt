@@ -1,0 +1,24 @@
+.menu__list {
+    display: flex;
+}
+
+.menu__elem {
+    &--active {
+        .menu__link {
+            color: red;
+        }
+    }
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    padding: 0 28px;
+    color: #fff;
+    font-size: 14px;
+
+    &:hover {
+        color: red;
+    }
+}

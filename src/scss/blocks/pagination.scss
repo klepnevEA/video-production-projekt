@@ -1,0 +1,47 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--black {
+        .pagination__text {
+            color: #000;
+        }
+
+        .pagination__buttons-btn {
+            color: #000;
+
+            &.active {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.pagination__buttons-elem {
+    margin: 0 1px;
+}
+
+.pagination__text {
+    color: #fff;
+    margin-right: 24px;
+}
+
+.pagination__buttons {
+    display: flex;
+}
+
+.pagination__buttons-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: $open-sans-bold;
+
+    &.active {
+        background-color: $red;
+    }
+}

@@ -1,0 +1,30 @@
+.main-banner {
+    position: relative;
+    background-color: $bg;
+    padding-top: 100px;
+    height: 410px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image: url('../img/bg/top-line.jpg');
+}
+
+.main-banner__title {
+    position: absolute;
+    top: 44%;
+    transform: translate(0, -50%);
+    font-family: $open-sans-bold;
+    font-size: 72px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-banner__container {
+    position: relative;
+    height: 100%;
+}
+
+.main-container__breadcrumbs {
+    position: absolute;
+    bottom: 26px;
+}

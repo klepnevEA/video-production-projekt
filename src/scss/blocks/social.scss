@@ -1,0 +1,28 @@
+.social {
+    display: flex;
+}
+
+.social__elem {
+    margin-right: 10px;
+    opacity: 0.8;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.social__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.social__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,31 @@
+.parthers {
+    background-color: #f4f5f5;
+    padding: 85px 0 60px;
+}
+
+.parthers__title {
+    font-family: $open-sans-bold;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.parthers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.parthers__elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 145px;
+    flex: 0 0 auto;
+    padding: 20px;
+}
+
+.parthers__logo {
+    max-height: 100%;
+    width: auto;
+}
